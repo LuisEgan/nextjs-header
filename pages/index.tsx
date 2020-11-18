@@ -76,7 +76,9 @@ export default function Home() {
 
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
-    props: {},
-    revalidate: 1,
+    props: {
+      ayye: "lmao",
+      revalidate: 1,
+    },
   };
 };
